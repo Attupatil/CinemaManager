@@ -19,8 +19,8 @@ public class Cinema {
     
     cinemaSize();
     printMenu();
-    // cinemaPattern();
-    // ticketPrice();
+    cinemaPattern();
+    ticketPrice();
   }
    private static void printMenu() {
         while (true) {
