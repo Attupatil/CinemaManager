@@ -1,6 +1,25 @@
 # CinemaManager
 A Text application based made in JAVA that helps manage a cinema theatre: sell tickets, check available seats, see sales statistics, and more.
 
+Menu looks like this:
+
+```
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+```
+When the item Statistics is chosen,program prints the following information:
+
+    The number of purchased tickets;
+    The number of purchased tickets represented as a percentage. Percentages rounded to 2 decimal places;
+    Current income;
+    
+Total income that shows how much money the theatre will get if all the tickets are sold.
+Buy a ticket doesn't allow a user to buy a ticket that has already been purchased.
+
+If a user chooses an already taken seat,program prints That ticket has already been purchased and ask them to enter different seat coordinates until they pick an available seat. Of course, you shouldn't allow coordinates that are out of bounds. If this happens, it prints Wrong input! and ask to enter different seat coordinates until the user picks an available seat.
+
 ```bash
 Enter the number of rows:
 > 7
